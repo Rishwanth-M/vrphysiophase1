@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>VR PHYSIO - Beyond Pain, Towards Potential</title>
+
+        <!-- CSS FILES -->        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+        <style>
+            .custom-btn {
+        background-color: #17a185;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+   
+
+    
+            /* === Book Banner === */
+    .book-banner {
+      background-image: url('https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg?auto=compress&cs=tinysrgb&w=1600');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .book-banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(32, 201, 192, 0.8);
+      z-index: 1;
+    }
+
+    .book-banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .book-banner h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .book-banner p {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .book-banner .custom-btn {
+      font-size: 1.1rem;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+    }
+        </style>
+
+    </head>
+    
+    <body id="section_1">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-8 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-geo-alt me-2"></i>
+                                <a href="https://www.google.com/maps/place/Femcity:+Women+%26+Children+Hospitals+in+Hyderabad/@17.4086022,78.4005987,17z/data=!4m6!3m5!1s0x3bcb96bbd2b4e021:0xcfeb4ca5e014a6b9!8m2!3d17.4086022!4d78.4005987!16s%2Fg%2F11gd66_jh_?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" 
+                                target="_blank">
+                                    VR Physio and Rehab
+                                </a>
+                        </p>
+
+
+                        <p class="d-flex mb-0">
+                            <i class="bi-envelope me-2"></i>
+
+                            <a href="mailto:vrphysiorehab@gmail.com">
+                                vrphysiorehab@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-youtube"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-whatsapp"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+<a class="navbar-brand d-flex align-items-center" href="index.html" style="text-decoration: none;">
+  <img src="images/logo.png" class="logo img-fluid me-2" alt="VR PHYSIO AND REHAB" style="height: 40px;">
+
+  <div style="display: flex; align-items: center; color: #333; font-family: 'Poppins', sans-serif;">
+    <span style="font-size: 1.8rem; font-weight: 700; color: #2b2b2b;">VR</span>
+    <span style="font-size: 1.8rem; font-weight: 400; color: #48bdc5; margin: 0 8px;">|</span>
+    <div style="display: flex; flex-direction: column; line-height: 1.1; margin-top: 4px;">
+      <span style="font-size: 0.85rem; font-weight: 500; color: #555; letter-spacing: 0.5px;">PHYSIO</span>
+      <span style="font-size: 0.85rem; font-weight: 500; color: #555; letter-spacing: 0.5px;">REHAB</span>
+    </div>
+  </div>
+</a>
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="treatments.html">Treatments</a></li>
+    <li class="nav-item"><a class="nav-link click-scroll" href="index.html#section_6">Contact</a></li>
+    <li class="nav-item ms-3">
+      <a class="nav-link custom-btn custom-border-btn btn" href="book.html">Book Appointment</a>
+    </li>
+  </ul>
+</div>
+
+            </div>
+        </nav>
+
+        <script>
+  // Highlight active nav link automatically
+  const currentPage = window.location.pathname.split("/").pop();
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+<script>
+  // Handle external navigation with hash links like index.html#section_6
+  document.querySelectorAll('a[href*="index.html#"]').forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      const href = link.getAttribute("href");
+      window.location.href = href; // open home page and scroll automatically
+    });
+  });
+</script>
+
+
+        <main>
+
+            <section class="section-padding" id="section_3">
+                <div class="news-detail-header-section text-center">
+                    <div class="row">
+
+                        <<div class="row">
+      <!-- Section Heading -->
+      <div class="col-lg-12 text-center mb-5">
+        <h2 class="fw-bold" style="color: #48bdc5;">Our Services</h2>
+        <p class="text-muted mx-auto" style="max-width: 700px;">
+          At <strong>VR Physio &amp; Rehab</strong>, we provide evidence-based physiotherapy and rehabilitation services
+          designed to restore function, relieve pain, and improve overall quality of life — wherever you are.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===== COMPREHENSIVE PHYSIOTHERAPY SPECIALTIES ===== -->
+<section class="section-padding" style="background-color:#f9f9f9;">
+  <div class="container">
+    <div class="row text-center mb-5">
+      <div class="col-lg-12">
+        <h2 class="fw-bold" style="color:#48bdc5;">Comprehensive Physiotherapy Specialties</h2>
+        <p class="text-muted mx-auto" style="max-width:750px;">
+          At <strong>VR Physio & Rehab</strong>, we cater to diverse physiotherapy needs through specialized
+          treatment programs for patients across all age groups — from children to seniors.
+          Each service is personalized to restore function, reduce pain, and enhance quality of life.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Ortho -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-person-walking text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Orthopedic Physiotherapy</h5>
+          <p class="text-muted">
+            Focused on treating joint, bone, and muscle injuries — including arthritis, back and neck pain,
+            fractures, and post-operative recovery. Restores mobility, strength, and posture effectively.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Neuro -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-brain text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Neurological Rehabilitation</h5>
+          <p class="text-muted">
+            Evidence-based therapy for patients recovering from <strong>Stroke, Parkinson’s Disease, or Spinal Cord Injuries</strong>.
+            Focuses on balance, coordination, and muscle re-education for better independence.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Pediatric -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-emoji-smile text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Pediatric Physiotherapy</h5>
+          <p class="text-muted">
+            Gentle and engaging programs for children with developmental delays, cerebral palsy,
+            muscular dystrophy, and post-injury recovery — improving motor skills and confidence.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Geriatric -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-person-standing text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Geriatric Physiotherapy</h5>
+          <p class="text-muted">
+            Specialized care for seniors to maintain strength, balance, and mobility.
+            Helps manage arthritis, joint stiffness, and fall prevention through safe, supervised exercises.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Women's Health -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-gender-female text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Women’s Health Physiotherapy</h5>
+          <p class="text-muted">
+            Dedicated antenatal and postnatal physiotherapy focusing on pelvic floor health,
+            postural correction, and pain relief. Helps in safe pregnancy fitness and post-delivery recovery.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Pilates -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-dumbbell text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Pilates (Mat & Reformer)</h5>
+          <p class="text-muted">
+            Improve posture, balance, and flexibility through guided Pilates sessions — both Mat and Reformer based.
+            Ideal for injury prevention, spine alignment, and postural strengthening.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Post Surgical -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-hospital text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Post-Surgical Rehabilitation</h5>
+          <p class="text-muted">
+            Structured programs for recovery after orthopedic, cardiac, or neurological surgeries.
+            Aims to restore mobility, strength, and confidence with progressive, safe exercises.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Injury -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-bandaid text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Injury & Pain Management</h5>
+          <p class="text-muted">
+            Comprehensive recovery for sports injuries, sprains, and chronic pain conditions.
+            Techniques include manual therapy, strengthening, and ergonomic correction to prevent recurrence.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+
+      <!-- Dry Needling -->
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="feature-box h-100 text-center p-4 bg-white rounded shadow-sm">
+          <i class="bi bi-activity text-success" style="font-size:2rem;"></i>
+          <h5 class="fw-bold mt-3 mb-2">Dry Needling Therapy</h5>
+          <p class="text-muted">
+            A modern pain-relief technique targeting trigger points and muscle knots to reduce stiffness,
+            improve mobility, and enhance muscle recovery — especially effective for chronic pain cases.
+          </p>
+          <a href="Services.html" class="read-more-btn">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="book.html" class="custom-btn btn px-4 py-2">Book Your Personalized Treatment Plan</a>
+    </div>
+  </div>
+</section>
+
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/causes/group-african-kids-paying-attention-class.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Home Care</h5>
+                                        <p>Personalized physiotherapy in the comfort of your home. Our certified therapists bring professional
+              equipment and evidence-based techniques directly to your doorstep — ensuring consistent recovery for
+              post-surgery, orthopedic, and neurological conditions.</p>
+                                    </div>
+                                    <a href="donate.html" class="custom-btn btn">Book Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/causes/group-african-kids-paying-attention-class.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Rehab Centers</h5>
+                                        <p> Our state-of-the-art physiotherapy centers in Jubilee Hills and beyond offer advanced rehabilitation for
+              <strong>Ortho, Neuro, and Cardio</strong> patients, along with <strong>Women’s Health</strong> and
+              <strong>Postnatal Care</strong>. Each session is customized to help you move freely and live pain-free.</p>
+                                    </div>
+                                    <a href="donate.html" class="custom-btn btn">Book Your Nearest Rehab center</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/causes/group-african-kids-paying-attention-class.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">In-Patient Rehabilitation</h5>
+                                        <p>In partnership with <strong>Tenacity Hospital</strong>, we provide dedicated in-patient physiotherapy for
+              women and children. With round-the-clock care and expert supervision, we ensure complete recovery in a safe,
+              supportive environment.</p>
+                                    </div>
+                                    <a href="donate.html" class="custom-btn btn">Book Admission</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- ===== SPECIALIZED PROGRAMS ===== -->
+    <section style="background-color: #f9f9f9;padding: 80px 0;"">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img src="images\avatar\portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid rounded shadow" alt="Specialized Programs">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="section-title mb-3">Specialized Programs</h2>
+            <p>
+              Our specialized programs are designed to take rehabilitation to the next level — combining advanced
+              technology with personalized therapy for holistic healing.
+            </p>
+            <ul class="text-muted ps-3">
+              <li><strong>VR Therapy:</strong> Cutting-edge virtual reality rehabilitation that enhances recovery speed
+                and patient engagement.</li>
+              <li><strong>Pilates Studio:</strong> Equipment-based sessions for posture correction, core strengthening,
+                and injury prevention.</li>
+              <li><strong>Neuro Rehabilitation:</strong> Expert-guided recovery programs for stroke, spinal, and
+                neurological conditions.</li>
+              <li><strong>Post-Surgical Recovery:</strong> Custom plans to regain strength, function, and flexibility
+                after surgery.</li>
+            </ul>
+            <a href="services.html" class="custom-btn btn mt-3">Know More</a>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+   <!-- ===== WHY CHOOSE VR PHYSIO ===== -->
+<section class="why-choose-section py-5" style="background: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4" style="color:#48bdc5;">Why Choose <span style="color:#2b2b2b;">VR Physio?</span></h2>
+    <p class="text-muted mb-5 mx-auto" style="max-width:800px;">
+      Discover why thousands of patients trust <strong>VR Physio &amp; Rehab</strong> for their recovery journey.
+      We blend medical expertise, advanced technology, and compassionate care to help you move better, live stronger,
+      and recover faster.
+    </p>
+
+    <div class="row g-4">
+      <!-- 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="why-box p-4 h-100 rounded shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="bi bi-person-heart"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Patient-Centered Care</h5>
+          <p class="text-muted">
+            Every treatment plan is crafted around your personal goals, comfort, and recovery speed. 
+            We listen, assess, and adapt so your healing stays effective and meaningful.
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="why-box p-4 h-100 rounded shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="bi bi-cpu"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Technology-Driven Rehab</h5>
+          <p class="text-muted">
+            Experience next-gen recovery through <strong>Virtual Reality Therapy</strong>, 
+            smart biofeedback systems, and evidence-based modern tools for precision rehabilitation.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="why-box p-4 h-100 rounded shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="bi bi-award"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Experienced Specialists</h5>
+          <p class="text-muted">
+            Led by <strong>Dr. Venkat PT (MPT, PhD-Ortho)</strong>, our skilled team brings over 
+            15 years of multidisciplinary physiotherapy expertise and compassionate patient care.
+          </p>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="why-box p-4 h-100 rounded shadow-sm">
+          <div class="icon-circle mb-3">
+            <i class="bi bi-hospital"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Comprehensive Support</h5>
+          <p class="text-muted">
+            From <strong>home care</strong> to <strong>in-patient rehab</strong> at Tenacity Hospital, 
+            we deliver end-to-end recovery solutions under one roof with personalized follow-ups.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTERNAL CSS ===== -->
+<style>
+  .why-box {
+    background: #fff;
+    transition: all 0.3s ease;
+    border-top: 4px solid #48bdc5;
+  }
+
+  .why-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border-top-color: #17a185;
+  }
+
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(32,201,151,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .icon-circle i {
+    color: #48bdc5;
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 767px) {
+    .why-box { padding: 2rem 1rem; }
+  }
+</style>
+
+        </main>
+
+        <!-- ===== BOOK CONSULTATION BANNER ===== -->
+  <section class="book-banner">
+    <div class="book-banner-content">
+      <h2>Ready to Begin Your Recovery?</h2>
+      <p>Book a one-on-one consultation with our experienced physiotherapists today and take the first step toward a pain-free life.</p>
+      <a href="book.html" class="custom-btn btn">Book Consultation</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 mb-4">
+          <img src="images/logo.png" class="logo img-fluid" alt="VR Physio Logo">
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <h5 class="site-footer-title mb-3">Quick Links</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Us</a></li>
+            <li class="footer-menu-item"><a href="services.html" class="footer-menu-link">Services</a></li>
+            <li class="footer-menu-item"><a href="treatments.html" class="footer-menu-link">Treatments</a></li>
+            <li class="footer-menu-item"><a href="book.html" class="footer-menu-link">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mx-auto">
+          <h5 class="site-footer-title mb-3">Contact Information</h5>
+          <p class="text-white d-flex mb-2">
+            <i class="bi-telephone me-2"></i>
+            <a href="tel:+919876543210" class="site-footer-link">+91 98765 43210</a>
+          </p>
+          <p class="text-white d-flex">
+            <i class="bi-envelope me-2"></i>
+            <a href="mailto:vrphysiorehab@gmail.com" class="site-footer-link">vrphysiorehab@gmail.com</a>
+          </p>
+          <p class="text-white d-flex mt-3">
+            <i class="bi-geo-alt me-2"></i>
+            Jubilee Hills, Hyderabad, India
+          </p>
+          <a href="https://maps.google.com" class="custom-btn btn mt-3">Get Direction</a>
+        </div>
+      </div>
+    </div>
+
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        
+                        
+                        <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-linkedin"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

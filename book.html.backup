@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>VR PHYSIO - Book an Appointment</title>
+
+  <!-- CSS FILES -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --brand-color: #48bdc5;
+      --text-dark: #2b2b2b;
+      --text-muted: #555;
+    }
+
+    h2.section-title {
+      font-weight: 700;
+      color: var(--brand-color);
+      text-align: center;
+    }
+
+    h5 {
+      color: var(--brand-color);
+      font-weight: 600;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .custom-block-wrap {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .custom-block-wrap:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-hover {
+      overflow: hidden;
+    }
+
+    .img-hover img {
+      transition: transform 0.6s ease;
+    }
+
+    .custom-block-wrap:hover .img-hover img {
+      transform: scale(1.08);
+    }
+
+    .custom-block {
+      padding: 1.5rem;
+      text-align: center;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .custom-btn {
+      background-color: var(--brand-color);
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .custom-btn:hover {
+      background-color: #17a185;
+      color: #fff;
+    }
+
+    .condition-box {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 25px;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .condition-box:hover {
+      background-color: #ffffff;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .condition-box h6 {
+      font-weight: 600;
+      color: var(--brand-color);
+      margin-bottom: 10px;
+    }
+
+    /* === Book Banner === */
+    .book-banner {
+      background-image: url('https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg?auto=compress&cs=tinysrgb&w=1600');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .book-banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(32, 201, 151, 0.8);
+      z-index: 1;
+    }
+
+    .book-banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .book-banner h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .book-banner p {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .book-banner .custom-btn {
+      font-size: 1.1rem;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 d-flex flex-wrap">
+          <p class="d-flex me-4 mb-0">
+            <i class="bi-geo-alt me-2"></i>
+            <a href="https://maps.app.goo.gl/" target="_blank">VR Physio & Rehab</a>
+          </p>
+          <p class="d-flex mb-0">
+            <i class="bi-envelope me-2"></i>
+            <a href="mailto:vrphysiorehab@gmail.com">vrphysiorehab@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+          <ul class="social-icon">
+            <li class="social-icon-item"><a href="#" class="social-icon-link bi-facebook"></a></li>
+            <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
+            <li class="social-icon-item"><a href="#" class="social-icon-link bi-youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/logo.png" class="logo img-fluid me-2" alt="VR Physio and Rehab" style="height: 40px;">
+        <div style="display: flex; align-items: center;">
+          <span style="font-size: 1.8rem; font-weight: 700; color: #2b2b2b;">VR</span>
+          <span style="font-size: 1.8rem; color: #48bdc5; margin: 0 8px;">|</span>
+          <div style="display: flex; flex-direction: column; line-height: 1.1; margin-top: 4px;">
+            <span style="font-size: 0.85rem; color: #555;">PHYSIO</span>
+            <span style="font-size: 0.85rem; color: #555;">REHAB</span>
+          </div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="treatments.html">Treatments</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#section_6">Contact</a></li>
+          <li class="nav-item ms-3">
+            <a class="nav-link custom-btn btn" href="book.html">Book Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+  // Highlight active nav link automatically
+  const currentPage = window.location.pathname.split("/").pop();
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+<script>
+  // Handle external navigation with hash links like index.html#section_6
+  document.querySelectorAll('a[href*="index.html#"]').forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      const href = link.getAttribute("href");
+      window.location.href = href; // open home page and scroll automatically
+    });
+  });
+</script>
+
+
+
+  <!-- ===== TREATMENTS OVERVIEW ===== -->
+  <section>
+    <div class="news-detail-header-section text-center ">
+      <h2 class="section-title mb-4">Book an Appointment</h2>
+      <!--<p class="text-white mx-auto" style="max-width: 720px;">
+        At <strong>VR Physio & Rehab</strong>, we combine evidence-based physiotherapy with compassionate care and
+        innovative rehabilitation technologies to help you recover, rebuild, and thrive.
+      </p> -->
+    </div>
+  </section>
+
+
+  <!-- ===== BOOK MY APPOINTMENT ===== -->
+<section class="section-padding" style="background:linear-gradient(180deg,#f9f9f9 0%,#ffffff 100%);">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT: Info Text -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-bold mb-3" style="color:#48bdc5;">Book Your Appointment</h2>
+        <p class="text-muted mb-4">
+          Begin your healing journey with <strong>VR Physio & Rehab</strong>.  
+          Our team of expert physiotherapists provides personalized care across Orthopedic, Neurological, Pediatric,
+          Geriatric, and Women’s Health rehabilitation — both in-clinic and at home.
+        </p>
+
+        <ul class="list-unstyled text-muted mb-4">
+          <li><i class="bi bi-check-circle-fill text-success me-2"></i> 15+ years of trusted physiotherapy experience</li>
+          <li><i class="bi bi-check-circle-fill text-success me-2"></i> Personalized one-on-one sessions</li>
+          <li><i class="bi bi-check-circle-fill text-success me-2"></i> Home, Clinic, and In-Patient Rehab options</li>
+          <li><i class="bi bi-check-circle-fill text-success me-2"></i> Certified specialists in Ortho, Neuro, & Pilates</li>
+        </ul>
+
+        <div class="d-flex align-items-center mt-4">
+          <div class="icon-circle me-3"><i class="bi bi-telephone"></i></div>
+          <div>
+            <p class="mb-1 fw-bold">Call Us Directly</p>
+            <a href="tel:+919876543210" class="text-decoration-none fw-semibold" style="color:#48bdc5;">+91 98765 43210</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Booking Form -->
+      <div class="col-lg-6">
+        <div class="booking-form bg-white p-4 rounded shadow-sm">
+          <h5 class="fw-bold mb-4" style="color:#48bdc5;">Appointment Details</h5>
+          <form id="appointmentForm" action="submit_appointment.php" method="POST" enctype="multipart/form-data" novalidate>
+
+            <!-- Name -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Full Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Email & Phone -->
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label fw-semibold">Email</label>
+                <input type="email" class="form-control" name="email" placeholder="example@email.com">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label fw-semibold">Phone Number <span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" name="phone" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+
+            <!-- Service -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Select Service <span class="text-danger">*</span></label>
+              <select class="form-select" name="service" required>
+                <option value="">-- Choose a Service --</option>
+                <optgroup label="Core Physiotherapy Treatments">
+                  <option>Orthopedic Physiotherapy</option>
+                  <option>Neurological Rehabilitation</option>
+                  <option>Pediatric Physiotherapy</option>
+                  <option>Geriatric Physiotherapy</option>
+                  <option>Women’s Health Physiotherapy (Antenatal & Postnatal)</option>
+                  <option>Post-Surgical Rehabilitation</option>
+                  <option>Injury & Pain Management</option>
+                </optgroup>
+                <optgroup label="Specialized Programs">
+                  <option>Pilates (Mat & Reformer)</option>
+                  <option>Dry Needling Therapy</option>
+                  <option>Electrotherapy & Advanced Modalities</option>
+                  <option>Manual Therapy</option>
+                  <option>Therapeutic Exercise</option>
+                </optgroup>
+                <optgroup label="Other Services">
+                  <option>Home Care Physiotherapy</option>
+                  <option>In-Patient Rehabilitation</option>
+                  <option>VR Therapy & Technology-Driven Rehab</option>
+                  <option>Patient Education & Postural Correction</option>
+                  <option>Ergonomic & Corporate Wellness Sessions</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <!-- Appointment Type -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Appointment Type</label>
+              <div class="d-flex flex-wrap gap-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="type" id="inclinic" value="In-Clinic" checked>
+                  <label class="form-check-label" for="inclinic">In-Clinic</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="type" id="homevisit" value="Home Visit">
+                  <label class="form-check-label" for="homevisit">Home Visit</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Date & Time -->
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label fw-semibold">Preferred Date <span class="text-danger">*</span></label>
+                <input type="date" class="form-control" name="date" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label fw-semibold">Preferred Time</label>
+                <input type="time" class="form-control" name="time">
+              </div>
+            </div>
+
+            <!-- Additional Notes -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Additional Notes</label>
+              <textarea class="form-control" name="message" rows="3" placeholder="Describe your concern, pain area, or condition"></textarea>
+            </div>
+
+            <!-- File Upload -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold">Attach Reports or Prescriptions (Optional)</label>
+              <input type="file" class="form-control" name="attachments" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx">
+              <small class="text-muted">You can upload discharge summaries, MRI reports, or doctor notes (Max 10MB)</small>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid">
+              <button type="submit" class="btn custom-btn" style="background:#48bdc5; color:#fff; border-radius:8px;">
+                <i class="bi bi-calendar-check me-2"></i>Book Appointment
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTERNAL CSS FOR BOOKING SECTION ===== -->
+<style>
+  .booking-form {
+  border: 2px solid #48bdc5;       /* ✅ border around the form */
+  border-top: 4px solid #48bdc5;   /* accent top border */
+  border-radius: 12px;             /* optional: softer rounded corners */
+  transition: all 0.4s ease;
+}
+
+
+  .booking-form:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+
+  .form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #48bdc5;
+    padding: 10px 12px;
+    transition: all 0.3s ease;
+  }
+
+  .form-control:focus, .form-select:focus {
+    border-color: #48bdc5;
+    box-shadow: 0 0 5px rgba(32,201,151,0.3);
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(32,201,151,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #48bdc5;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .booking-form { margin-top: 2rem; }
+  }
+</style>
+
+<!-- ===== OPTIONAL JS VALIDATION ===== -->
+<script>
+  document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+    const name = this.name.value.trim();
+    const phone = this.phone.value.trim();
+    const service = this.service.value;
+
+    if (!name || !phone || !service) {
+      e.preventDefault();
+      alert('⚠️ Please fill out all required fields before submitting.');
+    }
+  });
+</script>
+
+
+  
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 mb-4">
+          <img src="images/logo.png" class="logo img-fluid" alt="VR Physio Logo">
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <h5 class="site-footer-title mb-3">Quick Links</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Us</a></li>
+            <li class="footer-menu-item"><a href="services.html" class="footer-menu-link">Services</a></li>
+            <li class="footer-menu-item"><a href="treatments.html" class="footer-menu-link">Treatments</a></li>
+            <li class="footer-menu-item"><a href="book.html" class="footer-menu-link">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mx-auto">
+          <h5 class="site-footer-title mb-3">Contact Information</h5>
+          <p class="text-white d-flex mb-2">
+            <i class="bi-telephone me-2"></i>
+            <a href="tel:+919876543210" class="site-footer-link">+91 98765 43210</a>
+          </p>
+          <p class="text-white d-flex">
+            <i class="bi-envelope me-2"></i>
+            <a href="mailto:vrphysiorehab@gmail.com" class="site-footer-link">vrphysiorehab@gmail.com</a>
+          </p>
+          <p class="text-white d-flex mt-3">
+            <i class="bi-geo-alt me-2"></i>
+            Jubilee Hills, Hyderabad, India
+          </p>
+          <a href="https://maps.google.com" class="custom-btn btn mt-3">Get Direction</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        
+                        
+                        <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-linkedin"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

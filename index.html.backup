@@ -1,0 +1,1911 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>VR PHYSIO - Beyond Pain, Towards Potential</title>
+
+        <!-- CSS FILES -->        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    </head>
+    
+    <body id="section_1">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-8 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-geo-alt me-2"></i>
+                                <a href="https://www.google.com/maps/place/Femcity:+Women+%26+Children+Hospitals+in+Hyderabad/@17.4086022,78.4005987,17z/data=!4m6!3m5!1s0x3bcb96bbd2b4e021:0xcfeb4ca5e014a6b9!8m2!3d17.4086022!4d78.4005987!16s%2Fg%2F11gd66_jh_?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" 
+                                target="_blank">
+                                    VR Physio and Rehab
+                                </a>
+                        </p>
+
+
+                        <p class="d-flex mb-0">
+                            <i class="bi-envelope me-2"></i>
+
+                            <a href="mailto:vrphysiorehab@gmail.com">
+                                vrphysiorehab@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-youtube"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-whatsapp"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+              <a class="navbar-brand d-flex align-items-center" href="index.html">
+    <img 
+      src="images/Screenshot_2025-10-26_015119-removebg-preview.png" 
+      alt="VR PHYSIO AND REHAB Logo" 
+      class="logo img-fluid"
+      style="height: 70px; width: auto; max-height: 70px; object-fit: contain;">
+  </a>
+
+  <style>
+  @media (max-width: 768px) {
+    .navbar-brand .logo {
+      height: 45px;
+      max-height: 50px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .navbar-brand .logo {
+      height: 40px;
+      max-height: 45px;
+    }
+  }
+</style>
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a id='active' class="nav-link" href="index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="treatments.html">Treatments</a></li>
+    <li class="nav-item"><a class="nav-link click-scroll" href="#section_6">Contact</a></li>
+    <li class="nav-item ms-3">
+      <a class="nav-link custom-btn  btn" href="book.html">Book Appointment</a>
+    </li>
+  </ul>
+</div>
+
+            </div>
+        </nav>
+
+        
+
+        <script>
+  // Highlight active nav link automatically
+  const currentPage = window.location.pathname.split("/").pop();
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+
+        <main>
+
+            <section class="hero-section hero-section-full-height">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 p-0">
+                            <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/slide/volunteer-helping-with-donation-box.jpg" class="carousel-image img-fluid" alt="...">
+                                        
+                                        <div class="carousel-caption d-flex flex-column justify-content-end">
+                                            <h1>Move Freely</h1>
+                                            
+                                            <p>Restoring Movement. Rebuilding Confidence.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg" class="carousel-image img-fluid" alt="...">
+                                        
+                                        <div class="carousel-caption d-flex flex-column justify-content-end">
+                                            <h2>Stronger Everyday</h2>
+                                            
+                                            <p>From injury to independence — we’re with you at every step.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slide/medium-shot-people-collecting-donations.jpg" class="carousel-image img-fluid" alt="...">
+                                        
+                                        <div class="carousel-caption d-flex flex-column justify-content-end">
+                                            <h2>Redefine Recovery</h2>
+                                            
+                                            <p>Modern physiotherapy powered by compassion and technology.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#hero-slide" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 text-center mx-auto">
+                            <h2 class="mb-5">Welcome to Expert Care for Pain-Free Living.</h2>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="Services.html" class="d-block">
+                                    <img src="images/icons/hands.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">Our <strong>Services</strong></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#section_6" class="d-block">
+                                    <img src="images/icons/heart.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text"><strong>telephysiotherapy</strong></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#testimonial-section" class="d-block">
+                                    <img src="images/icons/receive.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text"><strong>Patient</strong> Stories</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="book.html" class="d-block">
+                                    <img src="images/icons/scholarship.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">Book an <strong>Appointment</strong></p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding section-bg" id="section_2">
+  <div class="container">
+
+    <!-- 1. Our Story -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+        <img src="images\group-people-volunteering-foodbank-poor-people.jpg" class="img-fluid rounded shadow" alt="Our Story - VR Physio">
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="custom-text-box">
+          <h2 class="mb-2">Our Story</h2>
+          <h5 class="mb-3 text-success">VR PHYSIO – Beyond Pain, Towards Potential</h5>
+          <p>
+            At <strong>VR Physio Clinic</strong>, we believe movement is the foundation of a healthy, fulfilling life.
+            Our team of dedicated physiotherapists and rehabilitation experts work closely with individuals
+            of all ages to restore strength, improve mobility, and promote lasting wellness.
+          </p>
+          <p>
+            Through compassionate care and personalized treatment, we empower our patients to regain
+            confidence in their bodies and return to the activities they love.
+          </p>
+
+          <div class="text-center mt-4">
+      <a href="about.html" class="read-more-btn">Know More</a>
+    </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Company Overview -->
+    <div class="row align-items-center flex-lg-row-reverse mb-5">
+      <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+        <img src="images\group-people-volunteering-foodbank-poor-people.jpg" class="img-fluid rounded shadow" alt="Company Overview">
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="custom-text-box">
+          <h2 class="mb-2">Clinic Overview</h2>
+          <h5 class="mb-3 text-success">VR Physio &amp; Rehab Private Limited</h5>
+          <p>
+            Founded by <strong>Dr. Venkat PT</strong> on <strong>15 September 2022</strong>, VR Physio &amp; Rehab
+            is a leading physiotherapy and rehabilitation center dedicated to evidence-based, patient-focused care.
+          </p>
+          <p>
+            With over <strong>15 years of experience</strong> at Apollo Hospitals, Dr. PT has treated
+            <strong>3,000+ TKRs</strong>, <strong>1,000 ACLs</strong>, and <strong>1,000 THRs</strong>.
+            His vision is to make quality rehabilitation accessible, personalized, and technology-driven.
+          </p>
+
+        <div class="text-center mt-4">
+            <a href="about.html" class="read-more-btn">Know More</a>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Our Services -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+        <img src="images\group-people-volunteering-foodbank-poor-people.jpg" class="img-fluid rounded shadow" alt="Our Services">
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="custom-text-box">
+          <h2 class="mb-2">Our Services</h2>
+          <h5 class="mb-3 text-success">Comprehensive Physiotherapy &amp; Rehabilitation Solutions</h5>
+          <ul class="ps-3">
+            <li><strong>🏠 Home Care:</strong> Expert physiotherapy services at home across Telangana, Andhra Pradesh, Bangalore, and Tamil Nadu.</li>
+            <li><strong>🏥 Physio Rehab Centers:</strong> Our flagship center in Jubilee Hills, Hyderabad offers outpatient Ortho, In-Patient Rehabilitation, Neuro, and Cardio rehab, as well as Women’s Health care.</li>
+            </ul>
+
+          <div class="text-center mt-4">
+      <a href="Services.html" class="read-more-btn">Know More</a>
+    </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. VR Pilates Studio -->
+    <div class="row align-items-center mb-5 flex-lg-row-reverse mb-5">
+      <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+        <img src="images\group-people-volunteering-foodbank-poor-people.jpg" class="img-fluid rounded shadow" alt="VR Pilates Studio">
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="custom-text-box">
+          <h2 class="mb-2">VR Pilates Studio</h2>
+          <h5 class="mb-3 text-success">Rebuild Strength. Restore Balance. Redefine You.</h5>
+          <p>
+            Our Pilates studio is equipped with <strong>Reformer</strong>, <strong>Wunda Chair</strong>, and
+            <strong>Ladder Barrel</strong> systems to enhance flexibility, posture, and strength. Each session focuses on full-body conditioning, recovery, and stability.
+          </p>
+          <h6 class="fw-semibold">Key Benefits:</h6>
+          <ul class="ps-3">
+            <li>Improved flexibility and balance</li>
+            <li>Stronger core and posture</li>
+            <li>Reduced pain and stiffness</li>
+            <li>Better coordination and breathing control</li>
+            <li>Safe for all ages and fitness levels</li>
+          </ul>
+
+          <div class="text-center mt-4">
+      <a href="Pilates.html" class="read-more-btn">Know More</a>
+    </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+
+
+    
+  </div>
+</section>
+
+<style>
+  #section_2 {
+    background-color: #f9f9f9;
+  }
+
+  #section_2 h2 {
+    font-weight: 700;
+    color: #2b2b2b;
+  }
+
+  #section_2 h5 {
+    font-weight: 600;
+    color: #48bdc5;
+  }
+
+  #section_2 p, 
+  #section_2 li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+  }
+
+  #section_2 .custom-text-box {
+    background: #fff;
+    padding: 1.5rem 1.8rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  #section_2 .custom-text-box-icon {
+    color: #48bdc5;
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+
+  #section_2 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  #section_2 ul {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  #section_2 ul li {
+    margin-bottom: 6px;
+  }
+</style>
+
+
+            <section class="about-section section-padding about-bg-shape">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-5 col-12">
+        <img src="images/portrait-volunteer-who-organized-donations-charity.jpg"
+             class="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-5 col-md-7 col-12">
+        <div class="custom-text-block">
+          <h2 class="mb-0">Dr. Venkat PT</h2>
+          <p class="text-muted mb-lg-4 mb-md-4">
+            MPT (Ortho), MIAP, Ph.D (Ortho)<br>
+            Senior Consultant Physiotherapist | Specialist in Hip &amp; Knee Rehabilitation<br>
+            Former Physiotherapist at Apollo Hospitals, Jubilee Hills (15 Years Experience)<br>
+            Director – VR Physio and Rehab Private Limited
+          </p>
+          <p>
+            Dr. Venkat PT is a highly experienced physiotherapist with over 15 years of clinical expertise...
+          </p>
+          <ul class="social-icon mt-4">
+            <li class="social-icon-item"><a href="#" class="social-icon-link bi-twitter"></a></li>
+            <li class="social-icon-item"><a href="#" class="social-icon-link bi-facebook"></a></li>
+            <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+            <style>
+.about-bg-shape {
+  position: relative;
+  background-color: #48bdc5; /* fallback if image doesn’t load */
+  
+  background-repeat: no-repeat;
+  background-size: cover;     /* scales to fit the section */
+  background-position: center; /* centers the shape */
+  color: #fff;
+  overflow: hidden;
+}
+
+
+
+.about-bg-shape .container {
+  position: relative;
+  z-index: 2; /* keeps content above background */
+}
+
+
+  .custom-text-block h2 {
+    font-weight: 700;
+    color: #2b2b2b;
+  }
+
+  .custom-text-block p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+
+  .custom-text-block .text-muted {
+    font-size: 0.9rem;
+    color: #ffffff !important;
+  }
+
+  
+</style>
+
+
+        
+<!---
+            <section class="cta-section section-padding section-bg">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+
+                        <div class="col-lg-5 col-12 ms-auto">
+                            <h2 class="mb-0">Make an impact. <br> Save lives.</h2>
+                        </div>
+
+                        <div class="col-lg-5 col-12">
+                            <a href="#" class="me-4">Make a donation</a>
+
+                            <a href="#section_4" class="custom-btn btn smoothscroll">Become a volunteer</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mb-4">
+                            <h2>Our Causes</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/causes/group-african-kids-paying-attention-class.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Children Education</h5>
+
+                                        <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</p>
+
+                                        <div class="progress mt-4">
+                                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center my-2">
+                                            <p class="mb-0">
+                                                <strong>Raised:</strong>
+                                                $18,500
+                                            </p>
+
+                                            <p class="ms-auto mb-0">
+                                                <strong>Goal:</strong>
+                                                $32,000
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <a href="donate.html" class="custom-btn btn">Donate now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/causes/poor-child-landfill-looks-forward-with-hope.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Poverty Development</h5>
+
+                                        <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus tempor</p>
+
+                                        <div class="progress mt-4">
+                                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center my-2">
+                                            <p class="mb-0">
+                                                <strong>Raised:</strong>
+                                                $27,600
+                                            </p>
+
+                                            <p class="ms-auto mb-0">
+                                                <strong>Goal:</strong>
+                                                $60,000
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <a href="donate.html" class="custom-btn btn">Donate now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="custom-block-wrap">
+                                <img src="images/causes/african-woman-pouring-water-recipient-outdoors.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Supply drinking water</h5>
+
+                                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+
+                                        <div class="progress mt-4">
+                                            <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center my-2">
+                                            <p class="mb-0">
+                                                <strong>Raised:</strong>
+                                                $84,600
+                                            </p>
+
+                                            <p class="ms-auto mb-0">
+                                                <strong>Goal:</strong>
+                                                $100,000
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <a href="donate.html" class="custom-btn btn">Donate now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+           
+
+           
+            <section class="volunteer-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="text-white mb-4">Volunteer</h2>
+
+                            <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                                <h3 class="mb-4">Become a volunteer today</h3>
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <input type="text" name="volunteer-name" id="volunteer-name" class="form-control" placeholder="Jack Doe" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">    
+                                        <input type="email" name="volunteer-email" id="volunteer-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <input type="text" name="volunteer-subject" id="volunteer-subject" class="form-control" placeholder="Subject" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group input-group-file">
+                                            <input type="file" class="form-control" id="inputGroupFile02">
+                                            
+                                            <label class="input-group-text" for="inputGroupFile02">Upload your CV</label>
+
+                                            <i class="bi-cloud-arrow-up ms-auto"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message" placeholder="Comment (Optional)"></textarea>
+
+                                <button type="submit" class="form-control">Submit</button>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" class="volunteer-image img-fluid" alt="">
+
+                            <div class="custom-block-body text-center">
+                                <h4 class="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
+
+                                <p class="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        -->
+
+
+
+        <!-- ===== EXPLORE OUR TREATMENTS CAROUSEL ===== -->
+<section class="py-5" style="background-color: #f9f9f9;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4" style="color:linear-gradient(to bottom, #ccf0fc, #bfe7f5);">Explore Our Treatments</h2>
+    <p class="text-muted mb-5" style="max-width:700px; margin:auto;">
+      Discover specialized physiotherapy programs designed to restore movement, reduce pain, and help you live better.
+    </p>
+
+    <!-- Swiper Container -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Card 1 -->
+        <div class="swiper-slide">
+          <a href="orthopedic.html" class="treatment-card">
+            <img src="images/treatments/ortho.jpg" alt="Orthopedic Physiotherapy">
+            <h6>Orthopedic Physiotherapy</h6>
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="swiper-slide">
+          <a href="neuro.html" class="treatment-card">
+            <img src="images/treatments/neuro.jpg" alt="Neurological Rehabilitation">
+            <h6>Neurological Rehabilitation</h6>
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="swiper-slide">
+          <a href="pediatric.html" class="treatment-card">
+            <img src="images/treatments/pediatric.jpg" alt="Pediatric Physiotherapy">
+            <h6>Pediatric Physiotherapy</h6>
+          </a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="swiper-slide">
+          <a href="geriatric.html" class="treatment-card">
+            <img src="images/treatments/geriatric.jpg" alt="Geriatric Physiotherapy">
+            <h6>Geriatric Physiotherapy</h6>
+          </a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="swiper-slide">
+          <a href="womens-health.html" class="treatment-card">
+            <img src="images/treatments/women.jpg" alt="Women’s Health Physiotherapy">
+            <h6>Women’s Health Physiotherapy</h6>
+          </a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="swiper-slide">
+          <a href="pilates.html" class="treatment-card">
+            <img src="images/treatments/pilates.jpg" alt="Pilates (Mat & Reformer)">
+            <h6>Pilates (Mat & Reformer)</h6>
+          </a>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="swiper-slide">
+          <a href="post-surgical.html" class="treatment-card">
+            <img src="images/treatments/post-surgical.jpg" alt="Post-Surgical Rehabilitation">
+            <h6>Post-Surgical Rehabilitation</h6>
+          </a>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="swiper-slide">
+          <a href="injury.html" class="treatment-card">
+            <img src="images/treatments/injury.jpg" alt="Injury & Pain Management">
+            <h6>Injury & Pain Management</h6>
+          </a>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="swiper-slide">
+          <a href="dry-needling.html" class="treatment-card">
+            <img src="images/treatments/dry-needling.jpg" alt="Dry Needling Therapy">
+            <h6>Dry Needling Therapy</h6>
+          </a>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="swiper-slide">
+          <a href="manual-therapy.html" class="treatment-card">
+            <img src="images/treatments/manual.jpg" alt="Manual Therapy">
+            <h6>Manual Therapy</h6>
+          </a>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="swiper-slide">
+          <a href="therapeutic-exercise.html" class="treatment-card">
+            <img src="images/treatments/exercise.jpg" alt="Therapeutic Exercise">
+            <h6>Therapeutic Exercise</h6>
+          </a>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="swiper-slide">
+          <a href="electrotherapy.html" class="treatment-card">
+            <img src="images/treatments/electrotherapy.jpg" alt="Electrotherapy & Advanced Modalities">
+            <h6>Electrotherapy & Advanced Modalities</h6>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SWIPER CSS ===== -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<!-- ===== SWIPER JS ===== -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- ===== CUSTOM STYLING ===== -->
+<style>
+  .treatment-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #48bdc5;
+  }
+
+  .treatment-card img {
+    width: 260px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(20, 179, 163, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .treatment-card:hover img {
+    transform: scale(1.05);
+  }
+
+  .treatment-card h6 {
+    font-weight: 600;
+    color: #48bdc5;
+    margin-top: 12px;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .swiper-slide {
+    width: auto;
+    text-align: center;
+  }
+</style>
+
+<!-- ===== SWIPER INIT SCRIPT ===== -->
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    allowTouchMove: false, // optional: disable dragging for perfect smoothness
+    speed: 2000, // long duration for smoothness
+    autoplay: {
+      delay: 0, // no waiting between transitions
+      disableOnInteraction: false,
+      reverseDirection: false, // set to true if you want right→left
+    },
+    freeMode: true, // allows continuous flow
+    freeModeMomentum: true, // prevents snapping
+    breakpoints: {
+      320: { slidesPerView: 1 },
+      576: { slidesPerView: 2 },
+      992: { slidesPerView: 3 },
+      1200: { slidesPerView: 4 },
+    },
+  });
+</script>
+
+
+<!-- ===== OUR EXPERTS SECTION ===== -->
+<section class="py-5" style="background-color:#48bdc5;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4" style="color:#000000;">Our Physiotherapy Experts</h2>
+    <p class="text-muted mb-5" style="max-width:700px;margin:auto;color: #f9f9f9 !important;">
+      Meet our team of experienced and compassionate physiotherapists dedicated to helping you move better, recover faster, and live pain-free.  
+      Each of them brings specialized skills and a passion for restoring health and mobility.
+    </p>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiperExperts">
+      <div class="swiper-wrapper">
+
+        <!-- Doctor 1 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/shraddha.jpg" alt="Dr. Shraddha">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Shraddha</h6>
+                  <p>Dedicated to holistic recovery through compassionate care and evidence-based physiotherapy.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10001</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Shraddha</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/bhrama-PT.jpg" alt="Dr. Bhrama PT">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Bhrama PT</h6>
+                  <p>Expert in orthopedic and neuro rehabilitation with a focus on restoring functional strength.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10002</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Bhrama PT</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 3 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/sonujishi.jpg" alt="Dr. Palyam Sonujishi">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Palyam Sonujishi</h6>
+                  <p>Passionate about movement restoration and long-term postural correction therapies.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10003</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Palyam Sonujishi</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 4 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/srilatha-t.jpg" alt="Dr. Thudum Sri Latha">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Thudum Sri Latha</h6>
+                  <p>Specializes in women’s health physiotherapy, antenatal and postnatal rehabilitation.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10004</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Thudum Sri Latha</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 5 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/azmeera-srilatha.jpg" alt="Dr. Azmeera Sri Latha">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Azmeera Sri Latha</h6>
+                  <p>Focused on neurological rehabilitation and pain management for long-term relief.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10005</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Azmeera Sri Latha</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 6 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/mani-priya.jpg" alt="Dr. Mani Priya">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Mani Priya</h6>
+                  <p>Committed to holistic musculoskeletal recovery through manual and therapeutic exercise.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10006</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Mani Priya</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SWIPER CSS ===== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- ===== STYLING ===== -->
+<style>
+  .doctor-card {
+    text-align: center;
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .doctor-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .doctor-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+  }
+
+  .doctor-img:hover img {
+    transform: scale(1.08);
+  }
+
+  .doctor-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 12px;
+  }
+
+  .doctor-img:hover .doctor-overlay {
+    opacity: 1;
+  }
+
+  .overlay-content {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .overlay-content h6 {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .overlay-content p {
+    font-size: 0.9rem;
+  }
+
+  .doctor-name {
+    font-weight: 600;
+    color: #48bdc5;
+    margin-top: 15px;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .swiper-slide {
+    width: 280px;
+  }
+
+  /* Navigation buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: #fff;
+    color: #48bdc5;
+  }
+
+  .swiper-button-next {
+    right: 10px;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
+</style>
+
+<!-- ===== SWIPER SCRIPT ===== -->
+<script>
+  // Unique variable name to prevent conflicts
+  var expertSwiper = new Swiper(".mySwiperExperts", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      992: { slidesPerView: 3 },
+    },
+  });
+</script>
+
+
+
+<!-- ===== SWIPER INIT (Continuous Motion) ===== 
+<script>
+  const expertSwiper = new Swiper(".mySwiperExperts", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    allowTouchMove: false,
+    freeMode: true,
+    freeModeMomentum: false,
+    speed: 7000, // smooth continuous scroll
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: { slidesPerView: 1 },
+      576: { slidesPerView: 2 },
+      992: { slidesPerView: 3 },
+      1200: { slidesPerView: 4 },
+    },
+  });
+</script> -->
+
+<!-- ===== ADVANCED PHYSIOTHERAPY CLINICS ===== -->
+<section class="py-5" style="background-color:#f9f9f9;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3" style="color:#0b5345;">ADVANCED PHYSIOTHERAPY CLINICS</h2>
+    <p class="text-muted mb-5" style="max-width:800px;margin:auto;">
+      Experience expert physiotherapy at our advanced clinics — equipped with the latest technologies for spine care,
+      sports injury rehabilitation, and personalized recovery programs tailored to your unique needs.
+    </p>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiperClinics">
+      <div class="swiper-wrapper">
+
+        <!-- Clinic 1 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/jayanagar.jpg" alt="VR Physio Clinic Jubilee Hills">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-white mb-1">VR PHYSIO CLINIC – JUBILEE HILLS</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>5.0</strong></p>
+              <p class="text-white mb-2"><strong>Ortho, Neuro & Sports Physiotherapy Center</strong></p>
+              <p class="text-white mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Road No. 36, Jubilee Hills, Hyderabad, Telangana 500033
+              </p>
+              <p class="text-white mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 11111</p>
+              <p class="text-white mb-3"><i class="bi-clock me-2"></i>Opening Hours: 8am – 8pm</p>
+              <div>
+                <a href="#" class="text-white me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-white"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clinic 2 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/kondapur.jpg" alt="VR Physio Clinic Kondapur">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-white mb-1">VR PHYSIO CLINIC – KONDAPUR</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>5.0</strong></p>
+              <p class="text-white mb-2"><strong>Spine, Ortho & Women’s Health Physiotherapy</strong></p>
+              <p class="text-white mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Plot No. 42, Botanical Garden Road, Kondapur, Hyderabad
+              </p>
+              <p class="text-white mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 22222</p>
+              <p class="text-white mb-3"><i class="bi-clock me-2"></i>Opening Hours: 9am – 8pm</p>
+              <div>
+                <a href="#" class="text-white me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-white"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clinic 3 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/banjara-hills.jpg" alt="VR Physio Clinic Banjara Hills">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-white mb-1">VR PHYSIO CLINIC – BANJARA HILLS</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>4.9</strong></p>
+              <p class="text-white mb-2"><strong>Post-Surgical & Pain Management Center</strong></p>
+              <p class="text-white mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Road No. 2, Banjara Hills, Hyderabad, Telangana
+              </p>
+              <p class="text-white mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 33333</p>
+              <p class="text-white mb-3"><i class="bi-clock me-2"></i>Opening Hours: 8am – 7pm</p>
+              <div>
+                <a href="#" class="text-white me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-white"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clinic 4 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/gachibowli.jpg" alt="VR Physio Clinic Gachibowli">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-white mb-1">VR PHYSIO CLINIC – GACHIBOWLI</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>5.0</strong></p>
+              <p class="text-white mb-2"><strong>Sports & Neuro Physiotherapy Excellence Center</strong></p>
+              <p class="text-white mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Near Deloitte, Gachibowli, Hyderabad, Telangana 500032
+              </p>
+              <p class="text-white mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 44444</p>
+              <p class="text-white mb-3"><i class="bi-clock me-2"></i>Opening Hours: 8am – 9pm</p>
+              <div>
+                <a href="#" class="text-white me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-white"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination Dots -->
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Swiper CSS & JS ===== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<style>
+  .clinic-card {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #48bdc5;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .clinic-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .clinic-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .clinic-image {
+    flex: 1;
+    min-height: 260px;
+  }
+
+  .clinic-content {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+  }
+
+  .swiper {
+    padding-bottom: 40px;
+  }
+</style>
+
+<script>
+  const clinicSwiper = new Swiper(".mySwiperClinics", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    speed: 800,
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1200: { slidesPerView: 2 },
+    },
+  });
+</script>
+
+
+<!----
+
+            <section class="news-section section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 mb-5">
+                            <h2>Latest News</h2>
+                        </div>
+
+                        <div class="col-lg-7 col-12">
+                            <div class="news-block">
+                                <div class="news-block-top">
+                                    <a href="news-detail.html">
+                                        <img src="images/news/medium-shot-volunteers-with-clothing-donations.jpg" class="news-image img-fluid" alt="">
+                                    </a>
+
+                                    <div class="news-category-block">
+                                        <a href="#" class="category-block-link">
+                                            Lifestyle,
+                                        </a>
+
+                                        <a href="#" class="category-block-link">
+                                            Clothing Donation
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="news-block-info">
+                                    <div class="d-flex mt-2">
+                                        <div class="news-block-date">
+                                            <p>
+                                                <i class="bi-calendar4 custom-icon me-1"></i>
+                                                October 12, 2036
+                                            </p>
+                                        </div>
+
+                                        <div class="news-block-author mx-5">
+                                            <p>
+                                                <i class="bi-person custom-icon me-1"></i>
+                                                By Admin
+                                            </p>
+                                        </div>
+
+                                        <div class="news-block-comment">
+                                            <p>
+                                                <i class="bi-chat-left custom-icon me-1"></i>
+                                                32 Comments
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="news-block-title mb-2">
+                                        <h4><a href="news-detail.html" class="news-block-title-link">Clothing donation to urban area</a></h4>
+                                    </div>
+
+                                    <div class="news-block-body">
+                                        <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based on Bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-block mt-3">
+                                <div class="news-block-top">
+                                    <a href="news-detail.html">
+                                        <img src="images/news/medium-shot-people-collecting-foodstuff.jpg" class="news-image img-fluid" alt="">
+                                    </a>
+
+                                    <div class="news-category-block">
+                                        <a href="#" class="category-block-link">
+                                            Food,
+                                        </a>
+
+                                        <a href="#" class="category-block-link">
+                                            Donation,
+                                        </a>
+
+                                        <a href="#" class="category-block-link">
+                                            Caring
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="news-block-info">
+                                    <div class="d-flex mt-2">
+                                        <div class="news-block-date">
+                                            <p>
+                                                <i class="bi-calendar4 custom-icon me-1"></i>
+                                                October 20, 2036
+                                            </p>
+                                        </div>
+
+                                        <div class="news-block-author mx-5">
+                                            <p>
+                                                <i class="bi-person custom-icon me-1"></i>
+                                                By Admin
+                                            </p>
+                                        </div>
+
+                                        <div class="news-block-comment">
+                                            <p>
+                                                <i class="bi-chat-left custom-icon me-1"></i>
+                                                35 Comments
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="news-block-title mb-2">
+                                        <h4><a href="news-detail.html" class="news-block-title-link">Food donation area</a></h4>
+                                    </div>
+
+                                    <div class="news-block-body">
+                                        <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel, condimentum orci</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mx-auto">
+                            <form class="custom-form search-form" action="#" method="get" role="form">
+                                <input name="search" type="search" class="form-control" id="search" placeholder="Search" aria-label="Search">
+
+                                <button type="submit" class="form-control">
+                                    <i class="bi-search"></i>
+                                </button>
+                            </form>
+
+                            <h5 class="mt-5 mb-3">Recent news</h5>
+
+                            <div class="news-block news-block-two-col d-flex mt-4">
+                                <div class="news-block-two-col-image-wrap">
+                                    <a href="news-detail.html">
+                                        <img src="images/news/africa-humanitarian-aid-doctor.jpg" class="news-image img-fluid" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-block-two-col-info">
+                                    <div class="news-block-title mb-2">
+                                        <h6><a href="news-detail.html" class="news-block-title-link">Food donation area</a></h6>
+                                    </div>
+
+                                    <div class="news-block-date">
+                                        <p>
+                                            <i class="bi-calendar4 custom-icon me-1"></i>
+                                            October 16, 2036
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-block news-block-two-col d-flex mt-4">
+                                <div class="news-block-two-col-image-wrap">
+                                    <a href="news-detail.html">
+                                        <img src="images/news/close-up-happy-people-working-together.jpg" class="news-image img-fluid" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-block-two-col-info">
+                                    <div class="news-block-title mb-2">
+                                        <h6><a href="news-detail.html" class="news-block-title-link">Volunteering Clean</a></h6>
+                                    </div>
+
+                                    <div class="news-block-date">
+                                        <p>
+                                            <i class="bi-calendar4 custom-icon me-1"></i>
+                                            October 24, 2036
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="category-block d-flex flex-column">
+                                <h5 class="mb-3">Categories</h5>
+
+                                <a href="#" class="category-block-link">
+                                    Drinking water
+                                    <span class="badge">20</span>
+                                </a>
+
+                                <a href="#" class="category-block-link">
+                                    Food Donation
+                                    <span class="badge">30</span>
+                                </a>
+
+                                <a href="#" class="category-block-link">
+                                    Children Education
+                                    <span class="badge">10</span>
+                                </a>
+
+                                <a href="#" class="category-block-link">
+                                    Poverty Development
+                                    <span class="badge">15</span>
+                                </a>
+
+                                <a href="#" class="category-block-link">
+                                    Clothing Donation
+                                    <span class="badge">20</span>
+                                </a>
+                            </div>
+
+                            <div class="tags-block">
+                                <h5 class="mb-3">Tags</h5>
+
+                                <a href="#" class="tags-block-link">
+                                    Donation
+                                </a>
+
+                                <a href="#" class="tags-block-link">
+                                    Clothing
+                                </a>
+
+                                <a href="#" class="tags-block-link">
+                                    Food
+                                </a>
+
+                                <a href="#" class="tags-block-link">
+                                    Children
+                                </a>
+
+                                <a href="#" class="tags-block-link">
+                                    Education
+                                </a>
+
+                                <a href="#" class="tags-block-link">
+                                    Poverty
+                                </a>
+
+                                <a href="#" class="tags-block-link">
+                                    Clean Water
+                                </a>
+                            </div>
+
+                            <form class="custom-form subscribe-form" action="#" method="get" role="form">
+                                <h5 class="mb-4">Newsletter Form</h5>
+
+                                <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" required>
+
+                                <div class="col-lg-12 col-12">
+                                    <button type="submit" class="form-control">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+          -->
+
+            <section class="testimonial-section section-padding section-bg" id="testimonial-section">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="mb-lg-3">Happy Customers</h2>
+                            
+                                <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                           <div class="carousel-caption">
+                                                <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Maria</span>, Boss</small>
+                                           </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Thomas</span>, Partner</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Jane</span>, Advisor</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Bob</span>, Entreprenuer</small>
+                                           </div>
+                                        </div>
+
+                                          <ol class="carousel-indicators">
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
+                                                    <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
+                                                    <img src="images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
+                                                    <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
+                                                    <img src="images/avatar/studio-portrait-emotional-happy-funny.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+                                          </ol>
+
+                                 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-section section-padding" id="section_6">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
+                            <div class="contact-info-wrap">
+                                <h2>Get in touch</h2>
+
+                                <div class="contact-image-wrap d-flex flex-wrap">
+                                    <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" class="img-fluid avatar-image" alt="">
+
+                                    <div class="d-flex flex-column justify-content-center ms-3">
+                                        <p class="mb-0">Dr. Shraddha</p>
+                                        <p class="mb-0"><strong>Physiotherapist</strong></p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info">
+                                    <h5 class="mb-3">Contact Infomation</h5>
+
+                                    <p class="d-flex mb-2">
+                                        <i class="bi-geo-alt me-2"></i>
+                                        VR Physio and Rehab
+                                    </p>
+
+                                    <p class="d-flex mb-2">
+                                        <i class="bi-telephone me-2"></i>
+
+                                        <a href="tel: +91 98765 43210">
+                                            +91 98765 43210
+                                        </a>
+                                    </p>
+
+                                    <p class="d-flex">
+                                        <i class="bi-envelope me-2"></i>
+
+                                        <a href="mailto:vrphysiorehab@gmail.com">
+                                            vrphysiorehab@gmail.com
+                                        </a>
+                                    </p>
+
+                                    <a href="https://www.google.com/maps/place/Femcity:+Women+%26+Children+Hospitals+in+Hyderabad/@17.4086022,78.4005987,17z/data=!4m6!3m5!1s0x3bcb96bbd2b4e021:0xcfeb4ca5e014a6b9!8m2!3d17.4086022!4d78.4005987!16s%2Fg%2F11gd66_jh_?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"" class="custom-btn btn mt-3">Get Direction</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-12 mx-auto">
+                            <form class="custom-form contact-form" action="#" method="post" role="form">
+                                <h2>Contact form</h2>
+
+                                <p class="mb-4">Or, you can just send an email:
+                                    <a href="mailto:vrphysiorehab@gmail.com">vrphysiorehab@gmail.com</a>
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input type="text" name="first-name" id="first-name" class="form-control" placeholder="First Name" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Last Name" required>
+                                    </div>
+                                </div>
+
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="@gmail.com" required>
+
+                                <textarea name="message" rows="5" class="form-control" id="message" placeholder="What can we help you?"></textarea>
+
+                                <button type="submit" class="form-control">Send Message</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <style>
+             /* ===== Contact Form Styling ===== */
+.contact-form {
+  border: 2px solid #48bdc5;        /* main border around form box */
+  border-radius: 12px;
+  padding: 30px;
+  background-color: #ffffff;        /* white background for clean look */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Inputs, textarea, and email fields */
+.contact-form .form-control {
+  border: 2px solid #48bdc5 !important; /* black borders for all fields */
+  border-radius: 8px;
+  box-shadow: none !important;
+  transition: none !important;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+/* Submit button */
+.contact-form button.form-control {
+  background-color: #48bdc5;
+  color: #fff;
+  border: 2px solid #48bdc5;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: none !important;
+}
+
+/* No hover effect on button */
+.contact-form button.form-control:hover {
+  background-color: #48bdc5 !important;
+  color: #fff !important;
+  border-color: #48bdc5 !important;
+}
+
+
+    
+
+    /* === Book Banner === */
+    .book-banner {
+      background-image: url('https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg?auto=compress&cs=tinysrgb&w=1600');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .book-banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(196, 203, 201, 0.8);
+      z-index: 1;
+    }
+
+    .book-banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .book-banner h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .book-banner p {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .book-banner .custom-btn {
+      font-size: 1.1rem;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+    }
+
+    
+  </style>
+
+        <!-- ===== BOOK CONSULTATION BANNER ===== -->
+  <section class="book-banner">
+    <div class="book-banner-content">
+      <h2>Ready to Begin Your Recovery?</h2>
+      <p>Book a one-on-one consultation with our experienced physiotherapists today and take the first step toward a pain-free life.</p>
+      <a href="book.html" class="custom-btn btn">Book Consultation</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 mb-4">
+          <img src="images/logo.png" class="logo img-fluid" alt="VR Physio Logo">
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <h5 class="site-footer-title mb-3">Quick Links</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Us</a></li>
+            <li class="footer-menu-item"><a href="services.html" class="footer-menu-link">Services</a></li>
+            <li class="footer-menu-item"><a href="treatments.html" class="footer-menu-link">Treatments</a></li>
+            <li class="footer-menu-item"><a href="book.html" class="footer-menu-link">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mx-auto">
+          <h5 class="site-footer-title mb-3">Contact Information</h5>
+          <p class="text-white d-flex mb-2">
+            <i class="bi-telephone me-2"></i>
+            <a href="tel:+919876543210" class="site-footer-link">+91 98765 43210</a>
+          </p>
+          <p class="text-white d-flex">
+            <i class="bi-envelope me-2"></i>
+            <a href="mailto:vrphysiorehab@gmail.com" class="site-footer-link">vrphysiorehab@gmail.com</a>
+          </p>
+          <p class="text-white d-flex mt-3">
+            <i class="bi-geo-alt me-2"></i>
+            Jubilee Hills, Hyderabad, India
+          </p>
+          <a href="https://www.google.com/maps/place/Femcity:+Women+%26+Children+Hospitals+in+Hyderabad/@17.4086022,78.4005987,17z/data=!4m6!3m5!1s0x3bcb96bbd2b4e021:0xcfeb4ca5e014a6b9!8m2!3d17.4086022!4d78.4005987!16s%2Fg%2F11gd66_jh_?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" class="custom-btn btn mt-3">Get Direction</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+<!----
+                        <div class="col-lg-6 col-md-7 col-12">
+                            <p class="copyright-text mb-0">Copyright © 2036 <a href="#">Kind Heart</a> Charity Org.
+                        	Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                        </div>
+                      -->
+                        <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-linkedin"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    </body>
+</html>

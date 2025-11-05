@@ -1,0 +1,1251 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>VR PHYSIO - Beyond Pain, Towards Potential</title>
+
+        <!-- CSS FILES -->        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+        <style>
+            .custom-btn {
+        background-color: #17a185;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+   
+
+    
+            /* === Book Banner === */
+    .book-banner {
+      background-image: url('https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg?auto=compress&cs=tinysrgb&w=1600');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .book-banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(32, 201, 201, 0.8);
+      z-index: 1;
+    }
+
+    .book-banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .book-banner h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .book-banner p {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .book-banner .custom-btn {
+      font-size: 1.1rem;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+    }
+        </style>
+
+    </head>
+    
+    <body id="section_1">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-8 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-geo-alt me-2"></i>
+                                <a href="https://www.google.com/maps/place/Femcity:+Women+%26+Children+Hospitals+in+Hyderabad/@17.4086022,78.4005987,17z/data=!4m6!3m5!1s0x3bcb96bbd2b4e021:0xcfeb4ca5e014a6b9!8m2!3d17.4086022!4d78.4005987!16s%2Fg%2F11gd66_jh_?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" 
+                                target="_blank">
+                                    VR Physio and Rehab
+                                </a>
+                        </p>
+
+
+                        <p class="d-flex mb-0">
+                            <i class="bi-envelope me-2"></i>
+
+                            <a href="mailto:vrphysiorehab@gmail.com">
+                                vrphysiorehab@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-youtube"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-whatsapp"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+<a class="navbar-brand d-flex align-items-center" href="index.html" style="text-decoration: none;">
+  <img src="images/logo.png" class="logo img-fluid me-2" alt="VR PHYSIO AND REHAB" style="height: 40px;">
+
+  <div style="display: flex; align-items: center; color: #333; font-family: 'Poppins', sans-serif;">
+    <span style="font-size: 1.8rem; font-weight: 700; color: #2b2b2b;">VR</span>
+    <span style="font-size: 1.8rem; font-weight: 400; color: #20c997; margin: 0 8px;">|</span>
+    <div style="display: flex; flex-direction: column; line-height: 1.1; margin-top: 4px;">
+      <span style="font-size: 0.85rem; font-weight: 500; color: #555; letter-spacing: 0.5px;">PHYSIO</span>
+      <span style="font-size: 0.85rem; font-weight: 500; color: #555; letter-spacing: 0.5px;">REHAB</span>
+    </div>
+  </div>
+</a>
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="treatments.html">Treatments</a></li>
+    <li class="nav-item"><a class="nav-link click-scroll" href="index.html#section_6">Contact</a></li>
+    <li class="nav-item ms-3">
+      <a class="nav-link custom-btn custom-border-btn btn" href="book.html">Book Appointment</a>
+    </li>
+  </ul>
+</div>
+
+            </div>
+        </nav>
+
+        <script>
+  // Highlight active nav link automatically
+  const currentPage = window.location.pathname.split("/").pop();
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+<script>
+  // Handle external navigation with hash links like index.html#section_6
+  document.querySelectorAll('a[href*="index.html#"]').forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      const href = link.getAttribute("href");
+      window.location.href = href; // open home page and scroll automatically
+    });
+  });
+</script>
+
+
+        <main>
+
+            <section class="section-padding" id="section_3">
+                <div class="news-detail-header-section text-center">
+                    <div class="row">
+
+                        <<div class="row">
+      <!-- Section Heading -->
+      <div class="col-lg-12 text-center mb-5">
+        <h2 class="fw-bold" style="color: #48bdc5;">About Us</h2>
+      </div>
+    </div>
+
+        </main>
+
+        <!-- ===== ABOUT THE CLINIC ===== -->
+<!-- ===== ABOUT VR PHYSIO & REHAB ===== -->
+<section class="section-padding" style="background-color:#ffffff;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Image Section -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img 
+          src="https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt="VR Physio & Rehab Clinic Hyderabad"
+          class="img-fluid rounded shadow"
+          style="border-radius:16px;">
+      </div>
+
+      <!-- Content Section -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3" style="color:#48bdc5;">About VR Physio & Rehab</h2>
+        <h5 class="text-muted mb-3">Beyond Pain, Towards Potential</h5>
+
+        <p>
+          Founded in <strong>2022</strong> by <strong>Dr. Venkat PT (MPT, PhD-Ortho)</strong>, 
+          <strong>VR Physio & Rehab</strong> was built on a single belief — that every person deserves 
+          to move freely, live confidently, and recover completely. What began as a small practice in 
+          Hyderabad has evolved into one of South India’s leading physiotherapy and rehabilitation networks, 
+          known for its patient-first approach and evidence-based care.
+        </p>
+
+        <p>
+          With over <strong>15 years of clinical expertise</strong> from Apollo Hospitals and hands-on 
+          experience in over <strong>3,000 Total Knee Replacements (TKR)</strong>, 
+          <strong>1,000 ACL Reconstructions</strong>, and <strong>1,000 Hip Replacements</strong>,
+          Dr. PT leads a multidisciplinary team dedicated to setting new benchmarks in recovery outcomes.
+        </p>
+
+        <p>
+          Our centers are equipped with advanced rehabilitation tools, reformer Pilates setups, 
+          electrotherapy modalities, and a compassionate team that blends technology with human touch.  
+          Whether it’s <strong>orthopedic, neurological, pediatric, or women’s health physiotherapy</strong>, 
+          we ensure personalized programs tailored to each individual’s journey.
+        </p>
+
+        <!-- Key Highlights -->
+        <div class="row mt-4">
+          <div class="col-sm-6 mb-3">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-hospital text-success me-2 fs-4"></i>
+              <p class="mb-0"><strong>3000+</strong> successful surgical rehabilitations</p>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-people text-success me-2 fs-4"></i>
+              <p class="mb-0"><strong>10,000+</strong> satisfied patients across India</p>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-geo-alt text-success me-2 fs-4"></i>
+              <p class="mb-0">Centers in <strong>Jubilee Hills</strong> & <strong>Tenacity Hospital</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-activity text-success me-2 fs-4"></i>
+              <p class="mb-0">Home-based & hospital-integrated physiotherapy care</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vision Quote -->
+        <blockquote class="mt-4 p-3 ps-4 border-start border-3 border-success text-muted fst-italic" style="background:#f9f9f9; border-radius:8px;">
+          “Our goal is not just to treat pain — but to help you rediscover movement, confidence, and the joy of a pain-free life.”
+          <br><span class="fw-bold text-success">– Dr. Venkat PT, Director & Chief Physiotherapist</span>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CORE VALUES & CARE PHILOSOPHY ===== -->
+<section class="section-padding" style="background-color:#f9f9f9;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4" style="color:#48bdc5;">Our Core Values & Care Philosophy</h2>
+    <p class="text-muted mb-5 mx-auto" style="max-width:850px;">
+      At <strong>VR Physio & Rehab</strong>, we believe that true healing goes beyond just treating pain.
+      It’s about understanding every patient’s story, empowering them with knowledge, and guiding them 
+      through a journey toward complete recovery — physically, mentally, and emotionally.
+    </p>
+
+    <div class="row g-4">
+      
+      <!-- Value 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="value-box bg-white h-100 rounded shadow-sm p-4">
+          <div class="icon-circle mb-3 mx-auto">
+            <i class="bi bi-heart-pulse"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Compassion-Driven Care</h5>
+          <p class="text-muted mb-0">
+            Every patient is treated with empathy, respect, and dignity. 
+            We build trust and offer personalized attention that ensures comfort at every stage of recovery.
+          </p>
+        </div>
+      </div>
+
+      <!-- Value 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="value-box bg-white h-100 rounded shadow-sm p-4">
+          <div class="icon-circle mb-3 mx-auto">
+            <i class="bi bi-cpu"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Evidence-Based Practice</h5>
+          <p class="text-muted mb-0">
+            Our treatment plans are rooted in the latest research and clinical evidence — 
+            combining manual therapy, advanced modalities, and scientific precision for faster, lasting results.
+          </p>
+        </div>
+      </div>
+
+      <!-- Value 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="value-box bg-white h-100 rounded shadow-sm p-4">
+          <div class="icon-circle mb-3 mx-auto">
+            <i class="bi bi-person-video3"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Patient Empowerment</h5>
+          <p class="text-muted mb-0">
+            We don’t just heal — we educate. 
+            Our therapists guide you on posture correction, movement awareness, and home care for lifelong wellness.
+          </p>
+        </div>
+      </div>
+
+      <!-- Value 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="value-box bg-white h-100 rounded shadow-sm p-4">
+          <div class="icon-circle mb-3 mx-auto">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Outcome-Oriented Approach</h5>
+          <p class="text-muted mb-0">
+            We measure progress objectively — focusing on restoring strength, flexibility, and confidence 
+            while preventing re-injury through structured assessments.
+          </p>
+        </div>
+      </div>
+
+      <!-- Value 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="value-box bg-white h-100 rounded shadow-sm p-4">
+          <div class="icon-circle mb-3 mx-auto">
+            <i class="bi bi-people"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Team Collaboration</h5>
+          <p class="text-muted mb-0">
+            Our therapists, doctors, and support team work seamlessly to ensure 
+            every treatment plan is integrated, personalized, and monitored for optimal recovery.
+          </p>
+        </div>
+      </div>
+
+      <!-- Value 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="value-box bg-white h-100 rounded shadow-sm p-4">
+          <div class="icon-circle mb-3 mx-auto">
+            <i class="bi bi-globe2"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Holistic & Global Standards</h5>
+          <p class="text-muted mb-0">
+            From clinical evaluation to rehabilitation technology, we follow international physiotherapy 
+            standards and integrate holistic healing methods like Pilates & posture therapy.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Philosophy Statement -->
+    <div class="mt-5 p-4 bg-white rounded shadow-sm" style="max-width:850px; margin:auto;">
+      <blockquote class="fst-italic text-muted mb-0">
+        “Our philosophy is simple — treat the root cause, not just the symptom.  
+        Heal the body, empower the mind, and uplift the spirit for lasting wellness.”
+      </blockquote>
+      <p class="fw-bold mt-3 text-success mb-0">– Team VR Physio & Rehab</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== INTERNAL CSS FOR THIS SECTION ===== -->
+<style>
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(32,201,151,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-circle i {
+    color: #20c997;
+    font-size: 1.8rem;
+  }
+
+  .value-box {
+    transition: all 0.3s ease;
+    border-top: 4px solid #20c997;
+  }
+
+  .value-box:hover {
+    transform: translateY(-6px);
+    border-top-color: #17a185;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+</style>
+
+
+<!-- ===== WHAT WE OFFER (DETAILED & ANIMATED) ===== -->
+<section class="section-padding" style="background:linear-gradient(180deg,#f9f9f9 0%,#ffffff 100%);">
+  <div class="container text-center">
+
+    <!-- Heading -->
+    <h2 class="fw-bold mb-3" style="color:#48bdc5;">What We Offer</h2>
+    <p class="text-muted mx-auto mb-5" style="max-width:850px;">
+      At <strong>VR Physio & Rehab</strong>, we combine advanced physiotherapy science, personalized care, and
+      innovative technology to deliver complete rehabilitation — from pain relief to full recovery.  
+      Explore our diverse range of specialized treatments, therapy programs, and wellness services designed
+      for every stage of healing.
+    </p>
+
+    <!-- === CATEGORY 1: CLINICAL & REHAB SERVICES === -->
+    <h4 class="fw-semibold mb-4 text-success">Clinical & Rehabilitation Services</h4>
+    <div class="row g-4 mb-5">
+      <!-- Orthopedic -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-person-walking"></i></div>
+          <h5 class="fw-bold mb-2">Orthopedic Physiotherapy</h5>
+          <p class="text-muted">Comprehensive care for bone, joint, and muscle injuries — including post-fracture rehab,
+            arthritis management, and post-surgical recovery for TKR, ACL, and THR patients.</p>
+        </div>
+      </div>
+
+      <!-- Neuro -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-brain"></i></div>
+          <h5 class="fw-bold mb-2">Neurological Rehabilitation</h5>
+          <p class="text-muted">Customized programs for <strong>Stroke, Parkinson’s, and Spinal Cord Injury</strong>
+            recovery focusing on balance, motor control, and independence through neuroplasticity training.</p>
+        </div>
+      </div>
+
+      <!-- Pediatric -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-emoji-smile"></i></div>
+          <h5 class="fw-bold mb-2">Pediatric Physiotherapy</h5>
+          <p class="text-muted">Early intervention and playful therapy for children with developmental delays, cerebral
+            palsy, or muscular dystrophy to improve movement, coordination, and confidence.</p>
+        </div>
+      </div>
+
+      <!-- Geriatric -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-person-standing"></i></div>
+          <h5 class="fw-bold mb-2">Geriatric Physiotherapy</h5>
+          <p class="text-muted">Specialized care for seniors to maintain strength, stability, and independence while
+            managing arthritis, balance disorders, and chronic pain safely.</p>
+        </div>
+      </div>
+
+      <!-- Post-Surgical -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-hospital"></i></div>
+          <h5 class="fw-bold mb-2">Post-Surgical Rehabilitation</h5>
+          <p class="text-muted">Targeted recovery programs after orthopedic, cardiac, or neurological surgeries —
+            restoring strength, mobility, and confidence with step-by-step guidance.</p>
+        </div>
+      </div>
+
+      <!-- Women’s Health -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-gender-female"></i></div>
+          <h5 class="fw-bold mb-2">Women’s Health Physiotherapy</h5>
+          <p class="text-muted">Antenatal & postnatal physiotherapy programs focusing on pelvic floor rehab, posture
+            correction, and back pain relief for safe and confident motherhood.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- === CATEGORY 2: SPECIALIZED PROGRAMS === -->
+    <h4 class="fw-semibold mb-4 text-success">Specialized Programs</h4>
+    <div class="row g-4 mb-5">
+      <!-- Pilates -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-dumbbell"></i></div>
+          <h5 class="fw-bold mb-2">Pilates (Mat & Reformer)</h5>
+          <p class="text-muted">Core-strengthening sessions on <strong>Reformer, Wunda Chair,</strong> and 
+            <strong>Ladder Barrel</strong> improving posture, flexibility, and balance — guided by certified trainers.</p>
+        </div>
+      </div>
+
+      <!-- Dry Needling -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-activity"></i></div>
+          <h5 class="fw-bold mb-2">Dry Needling & Trigger Point Therapy</h5>
+          <p class="text-muted">Advanced pain management technique targeting muscle knots and trigger points to relieve
+            stiffness, reduce inflammation, and restore smooth movement.</p>
+        </div>
+      </div>
+
+      <!-- Home Care -->
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-house-heart"></i></div>
+          <h5 class="fw-bold mb-2">Home Care Physiotherapy</h5>
+          <p class="text-muted">Expert physiotherapists deliver one-on-one rehabilitation sessions at home with
+            advanced portable equipment — ideal for post-surgical and elderly patients.</p>
+        </div>
+      </div>
+
+      <!-- Electrotherapy -->
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-lightning-charge"></i></div>
+          <h5 class="fw-bold mb-2">Electrotherapy & Modalities</h5>
+          <p class="text-muted">Includes <strong>TENS, IFT, Ultrasound, Cryotherapy,</strong> and more — accelerating
+            tissue healing, reducing inflammation, and stimulating nerve activation.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- === CATEGORY 3: WELLNESS & SUPPORT SERVICES === -->
+    <h4 class="fw-semibold mb-4 text-success">Wellness & Patient Support</h4>
+    <div class="row g-4 mb-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-chat-heart"></i></div>
+          <h5 class="fw-bold mb-2">Patient Education & Ergonomics</h5>
+          <p class="text-muted">Empowering patients with posture correction, safe movement techniques, and workplace
+            ergonomics to prevent re-injury and improve daily life.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-graph-up-arrow"></i></div>
+          <h5 class="fw-bold mb-2">Injury Prevention & Sports Conditioning</h5>
+          <p class="text-muted">Tailored training to enhance flexibility, performance, and muscle control for athletes
+            and fitness enthusiasts — reducing future injury risks.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="offer-box h-100 p-4 rounded shadow-sm">
+          <div class="icon-circle mb-3 mx-auto"><i class="bi bi-emoji-sunglasses"></i></div>
+          <h5 class="fw-bold mb-2">Wellness & Lifestyle Programs</h5>
+          <p class="text-muted">Customized wellness programs combining yoga, Pilates, and physiotherapy-based routines
+            for posture correction, flexibility, and holistic health.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="text-center mt-5">
+      <a href="book.html" class="custom-btn btn px-4 py-2">Book a Personalized Session</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTERNAL CSS & ANIMATIONS ===== -->
+<style>
+  .offer-box {
+    background: #fff;
+    border-top: 4px solid #20c997;
+    transition: all 0.4s ease;
+  }
+
+  .offer-box:hover {
+    transform: translateY(-8px);
+    border-top-color: #17a185;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .icon-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: rgba(32,201,151,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: #20c997;
+    transition: all 0.3s ease;
+  }
+
+  .offer-box:hover .icon-circle {
+    background: #20c997;
+    color: #fff;
+    transform: rotate(10deg);
+  }
+
+  .offer-box h5 {
+    font-weight: 600;
+  }
+
+  .offer-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .offer-box { padding: 1.5rem; }
+    .icon-circle { width: 55px; height: 55px; font-size: 1.5rem; }
+  }
+</style>
+
+<!-- ===== OUR EXPERTS SECTION ===== -->
+<section class="py-5" style="background-color:#f9f9f9;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4" style="color:#48bdc5;">Our Physiotherapy Experts</h2>
+    <p class="text-muted mb-5" style="max-width:700px;margin:auto;">
+      Meet our team of experienced and compassionate physiotherapists dedicated to helping you move better, recover faster, and live pain-free.  
+      Each of them brings specialized skills and a passion for restoring health and mobility.
+    </p>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiperExperts">
+      <div class="swiper-wrapper">
+
+        <!-- Doctor 1 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/shraddha.jpg" alt="Dr. Shraddha">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Shraddha</h6>
+                  <p>Dedicated to holistic recovery through compassionate care and evidence-based physiotherapy.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10001</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Shraddha</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/bhrama-PT.jpg" alt="Dr. Bhrama PT">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Bhrama PT</h6>
+                  <p>Expert in orthopedic and neuro rehabilitation with a focus on restoring functional strength.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10002</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Bhrama PT</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 3 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/sonujishi.jpg" alt="Dr. Palyam Sonujishi">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Palyam Sonujishi</h6>
+                  <p>Passionate about movement restoration and long-term postural correction therapies.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10003</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Palyam Sonujishi</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 4 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/srilatha-t.jpg" alt="Dr. Thudum Sri Latha">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Thudum Sri Latha</h6>
+                  <p>Specializes in women’s health physiotherapy, antenatal and postnatal rehabilitation.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10004</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Thudum Sri Latha</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 5 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/azmeera-srilatha.jpg" alt="Dr. Azmeera Sri Latha">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Azmeera Sri Latha</h6>
+                  <p>Focused on neurological rehabilitation and pain management for long-term relief.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10005</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Azmeera Sri Latha</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+        <!-- Doctor 6 -->
+        <div class="swiper-slide">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <img src="images/doctors/mani-priya.jpg" alt="Dr. Mani Priya">
+              <div class="doctor-overlay">
+                <div class="overlay-content">
+                  <h6>Dr. Mani Priya</h6>
+                  <p>Committed to holistic musculoskeletal recovery through manual and therapeutic exercise.</p>
+                  <a href="https://maps.google.com" class="btn btn-light btn-sm mt-2">View on Google</a>
+                  <p class="mt-2 mb-0"><strong>📞 +91 90000 10006</strong></p>
+                </div>
+              </div>
+            </div>
+            <h5 class="doctor-name">Dr. Mani Priya</h5>
+            <p class="text-muted">Physiotherapist</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SWIPER CSS ===== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- ===== STYLING ===== -->
+<style>
+  .doctor-card {
+    text-align: center;
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  .doctor-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .doctor-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+  }
+
+  .doctor-img:hover img {
+    transform: scale(1.08);
+  }
+
+  .doctor-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(32, 201, 192, 0.95);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 12px;
+  }
+
+  .doctor-img:hover .doctor-overlay {
+    opacity: 1;
+  }
+
+  .overlay-content {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .overlay-content h6 {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .overlay-content p {
+    font-size: 0.9rem;
+  }
+
+  .doctor-name {
+    font-weight: 600;
+    color: #48bdc5;
+    margin-top: 15px;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .swiper-slide {
+    width: 280px;
+  }
+</style>
+
+<!-- ===== SWIPER INIT (Continuous Motion) ===== -->
+<script>
+  const expertSwiper = new Swiper(".mySwiperExperts", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    allowTouchMove: false,
+    freeMode: true,
+    freeModeMomentum: false,
+    speed: 7000, // smooth continuous scroll
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      320: { slidesPerView: 1 },
+      576: { slidesPerView: 2 },
+      992: { slidesPerView: 3 },
+      1200: { slidesPerView: 4 },
+    },
+  });
+</script>
+
+
+<section class="testimonial-section section-padding section-bg" id="testimonial-section">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="mb-lg-3">Happy Customers</h2>
+                            
+                                <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                           <div class="carousel-caption">
+                                                <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Maria</span>, Boss</small>
+                                           </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Thomas</span>, Partner</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Jane</span>, Advisor</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
+
+                                                <small class="carousel-name"><span class="carousel-name-title">Bob</span>, Entreprenuer</small>
+                                           </div>
+                                        </div>
+
+                                          <ol class="carousel-indicators">
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
+                                                    <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
+                                                    <img src="images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
+                                                    <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+
+                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
+                                                    <img src="images/avatar/studio-portrait-emotional-happy-funny.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                               </li>
+                                          </ol>
+
+                                 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+<!-- ===== ACHIEVEMENTS ===== -->
+<section class="py-5 text-center text-dark" 
+style="background: linear-gradient(90deg, #48bdc5, #48bdc5);">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <h3 class="fw-bold">10,000+</h3>
+        <p>Patients Treated</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h3 class="fw-bold">3,000+</h3>
+        <p>Successful Surgeries Rehabilitated</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h3 class="fw-bold">15+</h3>
+        <p>Years of Experience</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h3 class="fw-bold">5</h3>
+        <p>Rehab Centers & Growing</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== MISSION AND VISION ===== -->
+<section class="section-padding">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4" style="color:#48bdc5;">Our Mission & Vision</h2>
+    <p class="text-muted mx-auto" style="max-width:800px;">
+      Our mission is to make physiotherapy accessible, evidence-driven, and holistic — empowering people to live pain-free, confident, and independent lives.
+    </p>
+    <p class="text-muted mx-auto" style="max-width:800px;">
+      Our vision is to be India’s most trusted name in rehabilitation, setting new standards of excellence in physiotherapy care and innovation.
+    </p>
+  </div>
+</section>
+
+
+<!-- ===== ADVANCED PHYSIOTHERAPY CLINICS ===== -->
+<section class="py-5" style="background-color:#f9f9f9;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3" style="color:#48bdc5;">ADVANCED PHYSIOTHERAPY CLINICS</h2>
+    <p class="text-muted mb-5" style="max-width:800px;margin:auto;">
+      Experience expert physiotherapy at our advanced clinics — equipped with the latest technologies for spine care,
+      sports injury rehabilitation, and personalized recovery programs tailored to your unique needs.
+    </p>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiperClinics">
+      <div class="swiper-wrapper">
+
+        <!-- Clinic 1 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/jayanagar.jpg" alt="VR Physio Clinic Jubilee Hills">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-dark mb-1">VR PHYSIO CLINIC – JUBILEE HILLS</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>5.0</strong></p>
+              <p class="text-dark mb-2"><strong>Ortho, Neuro & Sports Physiotherapy Center</strong></p>
+              <p class="text-dark mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Road No. 36, Jubilee Hills, Hyderabad, Telangana 500033
+              </p>
+              <p class="text-dark mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 11111</p>
+              <p class="text-dark mb-3"><i class="bi-clock me-2"></i>Opening Hours: 8am – 8pm</p>
+              <div>
+                <a href="#" class="text-dark me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-dark"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clinic 2 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/kondapur.jpg" alt="VR Physio Clinic Kondapur">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-dark mb-1">VR PHYSIO CLINIC – KONDAPUR</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>5.0</strong></p>
+              <p class="text-dark mb-2"><strong>Spine, Ortho & Women’s Health Physiotherapy</strong></p>
+              <p class="text-dark mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Plot No. 42, Botanical Garden Road, Kondapur, Hyderabad
+              </p>
+              <p class="text-dark mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 22222</p>
+              <p class="text-dark mb-3"><i class="bi-clock me-2"></i>Opening Hours: 9am – 8pm</p>
+              <div>
+                <a href="#" class="text-dark me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-dark"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clinic 3 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/banjara-hills.jpg" alt="VR Physio Clinic Banjara Hills">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-dark mb-1">VR PHYSIO CLINIC – BANJARA HILLS</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>4.9</strong></p>
+              <p class="text-dark mb-2"><strong>Post-Surgical & Pain Management Center</strong></p>
+              <p class="text-dark mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Road No. 2, Banjara Hills, Hyderabad, Telangana
+              </p>
+              <p class="text-dark mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 33333</p>
+              <p class="text-dark mb-3"><i class="bi-clock me-2"></i>Opening Hours: 8am – 7pm</p>
+              <div>
+                <a href="#" class="text-dark me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-dark"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clinic 4 -->
+        <div class="swiper-slide">
+          <div class="clinic-card d-flex flex-column flex-md-row align-items-stretch">
+            <div class="clinic-image">
+              <img src="images/clinics/gachibowli.jpg" alt="VR Physio Clinic Gachibowli">
+            </div>
+            <div class="clinic-content">
+              <h4 class="fw-bold text-dark mb-1">VR PHYSIO CLINIC – GACHIBOWLI</h4>
+              <p class="mb-1 text-warning">⭐⭐⭐⭐⭐ <strong>5.0</strong></p>
+              <p class="text-dark mb-2"><strong>Sports & Neuro Physiotherapy Excellence Center</strong></p>
+              <p class="text-dark mb-2">
+                <i class="bi-geo-alt-fill me-2"></i>Near Deloitte, Gachibowli, Hyderabad, Telangana 500032
+              </p>
+              <p class="text-dark mb-2"><i class="bi-telephone-fill me-2"></i> +91 90000 44444</p>
+              <p class="text-dark mb-3"><i class="bi-clock me-2"></i>Opening Hours: 8am – 9pm</p>
+              <div>
+                <a href="#" class="text-dark me-3"><i class="bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3"><i class="bi-google"></i></a>
+                <a href="#" class="text-dark"><i class="bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination Dots -->
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Swiper CSS & JS ===== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<style>
+  .clinic-card {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #48bdc5;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .clinic-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .clinic-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .clinic-image {
+    flex: 1;
+    min-height: 260px;
+  }
+
+  .clinic-content {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+  }
+
+  .swiper {
+    padding-bottom: 40px;
+  }
+</style>
+
+<script>
+  const clinicSwiper = new Swiper(".mySwiperClinics", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    speed: 800,
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1200: { slidesPerView: 2 },
+    },
+  });
+</script>
+
+
+
+        <!-- ===== BOOK CONSULTATION BANNER ===== -->
+  <section class="book-banner">
+    <div class="book-banner-content">
+      <h2>Ready to Begin Your Recovery?</h2>
+      <p>Book a one-on-one consultation with our experienced physiotherapists today and take the first step toward a pain-free life.</p>
+      <a href="book.html" class="custom-btn btn">Book Consultation</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 mb-4">
+          <img src="images/logo.png" class="logo img-fluid" alt="VR Physio Logo">
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <h5 class="site-footer-title mb-3">Quick Links</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Us</a></li>
+            <li class="footer-menu-item"><a href="services.html" class="footer-menu-link">Services</a></li>
+            <li class="footer-menu-item"><a href="treatments.html" class="footer-menu-link">Treatments</a></li>
+            <li class="footer-menu-item"><a href="book.html" class="footer-menu-link">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mx-auto">
+          <h5 class="site-footer-title mb-3">Contact Information</h5>
+          <p class="text-dark d-flex mb-2">
+            <i class="bi-telephone me-2"></i>
+            <a href="tel:+919876543210" class="site-footer-link">+91 98765 43210</a>
+          </p>
+          <p class="text-dark d-flex">
+            <i class="bi-envelope me-2"></i>
+            <a href="mailto:vrphysiorehab@gmail.com" class="site-footer-link">vrphysiorehab@gmail.com</a>
+          </p>
+          <p class="text-dark d-flex mt-3">
+            <i class="bi-geo-alt me-2"></i>
+            Jubilee Hills, Hyderabad, India
+          </p>
+          <a href="https://maps.google.com" class="custom-btn btn mt-3">Get Direction</a>
+        </div>
+      </div>
+    </div>
+
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        
+                        
+                        <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-linkedin"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
